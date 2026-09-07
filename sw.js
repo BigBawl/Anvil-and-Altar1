@@ -1,6 +1,6 @@
 var VERSION = 'aa-v1';
 var SHELL = VERSION + '-shell';
-var PRECACHE = ['./', './index.html', './icon-192.png', './icon-512.png', './manifest.json'];
+var PRECACHE = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', function (e) {
   e.waitUntil(
